@@ -1,1 +1,16 @@
-[{"relation":["delegate_permission/common.handle_all_urls"],"target":{"namespace":"android_app","package_name":"com.bluecellproduction.bobine","sha256_cert_fingerprints":["BD:02:FB:94:92:9D:89:CF:C9:FF:36:B3:9D:A9:D5:E7:BE:2A:B6:C5:97:45:C1:E4:69:07:CD:CE:B8:C1:C6:79","9C:53:15:44:9D:87:7A:90:A6:34:E4:55:DB:07:8F:86:29:8C:18:8E:F9:A0:44:87:53:7B:30:60:D7:7C:9A:8B"]}}]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.bluecellproduction.bobine",
+      "sha256_cert_fingerprints": [
+        "BD:02:FB:94:92:9D:89:CF:C9:FF:36:B3:9D:A9:D5:E7:BE:2A:B6:C5:97:45:C1:E4:69:07:CD:CE:B8:C1:C6:79",
+        "9C:53:15:44:9D:87:7A:90:A6:34:E4:55:DB:07:8F:86:29:8C:18:8E:F9:A0:44:87:53:7B:30:60:D7:7C:9A:8B",
+        "C4:4A:2B:D2:E0:FA:5B:BC:E4:3C:DA:BA:05:FD:DD:AF:9F:F4:A4:07:9A:D7:4C:10:61:E8:D7:EE:76:5B:32:C9"
+      ]
+    }
+  }
+]
