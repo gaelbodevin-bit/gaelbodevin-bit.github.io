@@ -73,8 +73,8 @@ h1 em{font-style:normal;color:var(--ac)}
 .btn svg{width:22px;height:22px}
 .btn.ghost{color:var(--tx);border:1px solid #ffffff2a}
 .note{color:var(--mu);font-size:13.5px;margin-top:12px}
-.phones{display:flex;gap:14px;justify-content:center}
-.phones img{width:46%;max-width:230px;border-radius:22px;box-shadow:0 20px 60px #0009;border:1px solid var(--line)}
+.phones{display:flex;gap:14px;justify-content:center;align-items:flex-start}
+.phones img{width:46%;max-width:230px;height:auto;aspect-ratio:9/16;object-fit:cover;border-radius:22px;box-shadow:0 20px 60px #0009;border:1px solid var(--line)}
 .phones img:nth-child(2){margin-top:34px}
 section{padding:36px 0;border-top:1px solid var(--line)}
 h2{font-size:clamp(24px,4vw,32px);letter-spacing:-.02em;margin:0 0 8px}
@@ -93,7 +93,7 @@ h2{font-size:clamp(24px,4vw,32px);letter-spacing:-.02em;margin:0 0 8px}
 .f span{color:var(--mu);font-size:14.5px}
 .f .tag{display:inline-block;font-size:11px;font-weight:800;letter-spacing:.04em;color:var(--ac-tx);background:var(--ac);border-radius:6px;padding:1px 6px;margin-left:6px;vertical-align:2px}
 .gallery{display:flex;gap:14px;overflow-x:auto;padding-bottom:6px;scroll-snap-type:x mandatory}
-.gallery img{width:220px;flex:none;border-radius:18px;border:1px solid var(--line);scroll-snap-align:start}
+.gallery img{width:220px;height:auto;aspect-ratio:9/16;object-fit:cover;flex:none;border-radius:18px;border:1px solid var(--line);scroll-snap-align:start}
 .price{display:grid;gap:12px}
 @media(min-width:720px){.price{grid-template-columns:1fr 1fr}}
 .price .f ul{margin:10px 0 0;padding-left:18px;color:#d6d6de;font-size:15px}
@@ -132,8 +132,8 @@ footer a{color:var(--mu)}
       <p class="note">Gratuit, sans publicité, données hébergées en Europe. Android d'abord, iPhone ensuite.</p>
     </div>
     <div class="phones">
-      <img src="playwatch-series.webp" alt="Playwatch : la liste des séries en cours avec les prochains épisodes" width="540" height="960">
-      <img src="playwatch-episodes.webp" alt="Playwatch : cocher ses épisodes vus saison par saison" width="540" height="960">
+      <img src="playwatch-series.webp" alt="Playwatch : la liste des séries en cours avec les prochains épisodes" width="720" height="1280">
+      <img src="playwatch-episodes.webp" alt="Playwatch : cocher ses épisodes vus saison par saison" width="720" height="1280">
     </div>
   </div>
 
@@ -168,10 +168,10 @@ footer a{color:var(--mu)}
   <section>
     <h2>En images</h2>
     <div class="gallery">
-      <img src="playwatch-series.webp" alt="Séries en cours" loading="lazy" width="540" height="960">
-      <img src="playwatch-episodes.webp" alt="Épisodes cochés" loading="lazy" width="540" height="960">
-      <img src="playwatch-films.webp" alt="Films à voir et vus" loading="lazy" width="540" height="960">
-      <img src="playwatch-jeux.webp" alt="Jeux vidéo" loading="lazy" width="540" height="960">
+      <img src="playwatch-series.webp" alt="Séries en cours" loading="lazy" width="720" height="1280">
+      <img src="playwatch-episodes.webp" alt="Épisodes cochés" loading="lazy" width="720" height="1280">
+      <img src="playwatch-films.webp" alt="Films à voir et vus" loading="lazy" width="720" height="1280">
+      <img src="playwatch-jeux.webp" alt="Jeux vidéo" loading="lazy" width="720" height="1280">
     </div>
   </section>
 
