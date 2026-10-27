@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gaelbodevin-bit.github.io/sitemap.xml
